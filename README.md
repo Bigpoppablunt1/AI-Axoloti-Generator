@@ -59,12 +59,15 @@ The app is deployed at: **https://axolotlworld.com**
 
 3. Connect your GitHub repository
 
-4. Add the environment variable in Railway:
+4. Add the environment variables in Railway:
    - Go to your project settings
    - Click on "Variables"
-   - Add: `GEMINI_API_KEY` with your API key
+   - Add: `GEMINI_API_KEY` with your actual Gemini API key from Google AI Studio
+   - Add: `PORT` with value `3000` (optional, Railway handles this automatically)
 
 5. Railway will automatically deploy your app!
+   - The build command will run: `vite build`
+   - The start command will run: `npm start` (builds and serves the app)
 
 **Important**: Make sure the `GEMINI_API_KEY` environment variable is set in Railway, otherwise the app will show a blue screen and fail to load.
 
