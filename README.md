@@ -47,6 +47,10 @@ npm run dev
 
 6. Open http://localhost:3000 in your browser
 
+### Production URL
+
+The app is deployed at: **https://axolotlworld.com**
+
 ### Railway Deployment
 
 1. Push your code to GitHub
